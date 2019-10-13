@@ -1,4 +1,4 @@
-baseurl = "http://www.yzheng.me"
+baseurl = "yzheng.me"
 title = "Yange Zheng"
 theme = "hugo-coder"
 languagecode = "en"
