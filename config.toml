@@ -1,5 +1,5 @@
-baseurl = "yzheng.me"
-title = "Yange Zheng"
+baseurl = "https://yzheng.me"
+title = "Yange"
 theme = "hugo-coder"
 languagecode = "en"
 defaultcontentlanguage = "en"
@@ -11,18 +11,18 @@ pygmentsstyle = "bw"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
-[params]
 
+[params]
     author = "Yange Zheng"
-    info = "the good Student"
+    info = "Currently just a student"
     description = "Yange's personal website"
     keywords = "blog,developer,personal"
-    avatarurl = "images/avatar.jpeg"
+    avatarurl = "images/avatar.jpg"
 
     favicon_32 = "/img/favicon-32x32.png"
     favicon_16 = "/img/favicon-16x16.png"
 
-    footercontent = "Nice to meet you."
+    footercontent = "Nice to me you."
 
     hidecredits = true
     hidecopyright = true
@@ -38,16 +38,6 @@ pygmentscodefencesguesssyntax = true
     icon = "fab fa-github fa-2x"
     weight = 1
     url = "https://github.com/camscofie/"
-[[params.social]]
-    name = "Gitlab"
-    icon = "fab fa-gitlab fa-2x"
-    weight = 2
-    url = "https://gitlab.com/camscofie/"
-[[params.social]]
-    name = "Twitter"
-    icon = "fab fa-twitter fa-2x"
-    weight = 3
-    url = "https://twitter.com/johndoe/"
 
 # Menu links
 [[menu.main]]
