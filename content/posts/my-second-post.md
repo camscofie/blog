@@ -10,3 +10,9 @@ description = "this si the description, see how it works"
 +++
 
 # here is second post
+
+```java
+    Class class = new Class;
+    class.print();
+    Myclass my = new Myclass();
+```

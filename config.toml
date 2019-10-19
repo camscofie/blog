@@ -1,54 +1,47 @@
 baseurl = "https://yzheng.me"
-title = "Yange Zheng"
-theme = "hugo-coder"
-languagecode = "en"
-defaultcontentlanguage = "en"
-
-paginate = 20
-canonifyurls = true
-
-pygmentsstyle = "bw"
-pygmentscodefences = true
-pygmentscodefencesguesssyntax = true
-
+languageCode = "en-us"
+theme = "hello-friend-ng"
 
 [params]
-    author = "Yange Zheng"
-    info = "Currently just a student"
-    description = "Yange's personal website"
-    keywords = "blog,developer,personal"
-    avatarurl = "images/avatar.jpg"
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
 
-    favicon_32 = "/img/favicon-32x32.png"
-    favicon_16 = "/img/favicon-16x16.png"
+  # Metadata mostly used in document's head
+  description = "Homepage and blog by Djordje Atlialp"
+  keywords = "homepage, blog, science, informatics, development, programming"
+  images = [""]
 
-    footercontent = "Nice to me you."
+  # Directory name of your blog content (default is `content/posts`)
+  contentTypeName = "posts"
+  # Default theme "light" or "dark"
+  defaultTheme = "light"
+  
+[languages]
+  [languages.en]
+    title = "Yange Zheng"
+    subtitle = "Yange's personal website"
+    keywords = ""
+    copyright = ""
+    readOtherPosts = "Read other posts"
 
-    hidecredits = true
-    hidecopyright = true
+    [languages.en.params.logo]
+      logoText = "cd /home"
+      logoHomeLink = "/"
+    # or
+    #
+    # path = "/img/your-example-logo.svg"
+    # alt = "Your example logo alt text"
 
-    rtl = false
 
-    math = true
-    custom_css = ["css/custom.css"]
-
-# Social links
-[[params.social]]
-    name = "Github"
-    icon = "fab fa-github fa-2x"
-    weight = 1
-    url = "https://github.com/camscofie/"
-
-# Menu links
-[[menu.main]]
-    name = "Blog"
-    weight = 1
-    url  = "/posts/"
-[[menu.main]]
-    name = "Projects"
-    weight = 2
-    url = "/projects/"
-[[menu.main]]
-    name = "About"
-    weight = 3
-    url = "/about/"
+# And you can even create generic menu
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "/about"
+  [[menu.main]]
+    identifier = "posts"
+    name       = "Post"
+    url        = "/posts"
