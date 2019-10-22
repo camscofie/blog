@@ -2,3 +2,7 @@
 	path = public
 	url = git@github.com:camscofie/camscofie.github.io.git
 	branch = master
+[submodule "themes/hello-friend-ng"]
+	path = themes/hello-friend-ng
+	url = git@github.com:camscofie/hugo-theme-hello-friend-ng.git
+	branch = master

@@ -26,6 +26,9 @@ theme = "hello-friend-ng"
   # Default theme "light" or "dark"
   defaultTheme = "light"
   
+[author]
+  name = "Yange Zheng"
+
 [languages]
   [languages.en]
     title = "Yange Zheng"
