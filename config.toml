@@ -2,16 +2,24 @@ baseurl = "https://yzheng.me"
 languageCode = "en-us"
 theme = "hello-friend-ng"
 
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+
 [params]
   dateform        = "Jan 2, 2006"
   dateformShort   = "Jan 2"
   dateformNum     = "2006-01-02"
   dateformNumTime = "2006-01-02 15:04 -0700"
+  math = true
 
   # Metadata mostly used in document's head
-  description = "Homepage and blog by Djordje Atlialp"
+  description = "Yange's personal website"
   keywords = "homepage, blog, science, informatics, development, programming"
   images = [""]
+
+  homeSubtitle = "currently a Student"
 
   # Directory name of your blog content (default is `content/posts`)
   contentTypeName = "posts"
@@ -38,10 +46,35 @@ theme = "hello-friend-ng"
 # And you can even create generic menu
 [menu]
   [[menu.main]]
+    identifier = "blogs"
+    name       = "Blog"
+    url        = "/blogs"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "dejavu"
+    name = "Déjà vu"
+    url ="/dejavu"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "projects"
+    name  = "Project"
+    url = "/projects"
+    weight = 3
+
+    [[menu.main]]
     identifier = "about"
     name       = "About"
     url        = "/about"
-  [[menu.main]]
-    identifier = "posts"
-    name       = "Post"
-    url        = "/posts"
+    weight = 4
+
+
+    # Social icons
+    [[params.social]]
+    name = "email"
+    url = "mailto:posterscofield@gmail.com"
+
+    [[params.social]]
+    name = "github"
+    url = "https://github.com/camscofie/"

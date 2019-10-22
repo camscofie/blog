@@ -1,13 +1,9 @@
-+++ 
-draft = false 
-date = 2019-10-13T22:41:21+02:00
-title = "Encryption Methods for Kids"
-slug = "" 
-tags = []
-categories = []
-thumbnail = "images/tn.png"
-description = "Cäser, Vigenère, One-Time-Pad, Stream cipher"
-+++
+---
+layout: post
+title: Encryption Methods for Kids
+description: Cäser, Vigenère, One-Time-Pad, Stream cipher
+category: blogs
+---
 
 ## Cäser Cipher
 **Enc(K, M) = (Mi + K mod 26)**
@@ -51,7 +47,7 @@ Hacking tips:
 + none
   
 ## Stromchiﬀren mit Pseudozufallszahlen
-![alter text](/postImage/KidsCipher/Xnip2019-07-30_00-30-26.jpg)
+![alter text](/resources/postImage/KidsCipher/Xnip2019-07-30_00-30-26.jpg)
 
 
 
