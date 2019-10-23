@@ -1,8 +1,8 @@
 ---
-layout: post
 title: Block Cipher
 description: ECB, CBC, CTR
-category: blogs
+date: 2019-07-24T22:41:21+02:00
+tags: ["sicherheit"]
 ---
 
 ## Electronic Codebook Mode (ECB-Modus)
@@ -12,7 +12,7 @@ category: blogs
 
 
 ## Cipher Block Chaining Mode (CBC)
-![alt text](/resources/postImage/BlockCipher/CBC_encryption.svg.png)
+![alt text](/postImage/BlockCipher/CBC_encryption.svg.png)
 + M: Message; C: Ciphertext; IP: Initial Vector; E: Encryption Algorithm; K: key
 
 **1. Encryption:**
@@ -26,10 +26,9 @@ category: blogs
 *go backwards*
 
 ## Counter (CTR) Mode
-![alter text](/resources/postImage/BlockCipher/Xnip2019-07-30_00-40-09.jpg)
+![alter text](/postImage/BlockCipher/Xnip2019-07-30_00-40-09.jpg)
 
 
 
-![alter text](/resources/postImage/BlockCipher/Xnip2019-07-30_00-46-51.jpg)
+![alter text](/postImage/BlockCipher/Xnip2019-07-30_00-46-51.jpg)
 
-[Yange]:    http://camscofie.github.io  "Yange"

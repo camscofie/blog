@@ -1,8 +1,8 @@
 ---
-layout: post
 title: Grundbegriffe der Informatik
 description: Wörter, Formale Sprachen, Reguläre Ausdrücke, Endliche Automaten, Kontextfreie Grammatiken
-category: blogs
+date: 2019-08-05T22:41:21+02:00
+tags: ["TGI"]
 ---
 
 ## Wörter

@@ -1,8 +1,8 @@
 ---
-layout: post
 title: Asymmetrische Authentifikation
 description: RSA and ElGamal Signaturen 
-category: blogs
+date: 2019-07-20T22:41:21+02:00
+tags: ["sicherheit"]
 ---
 
 ## Digitale Sinaturschemata
@@ -17,7 +17,7 @@ category: blogs
 1. A has pk and access to Sig(sk,*)-Orakel
 2. A gives (M*,σ*)
 3. A wins, when Ver(pk,M*,σ*) = 1 and M* != M.
-![alt text](/resources/postImage/asymmetirscheAuthentifikation/EUF-CMA.png)
+![alt text](/postImage/asymmetirscheAuthentifikation/EUF-CMA.png)
 
 ## RSA als Signaturschema
 -------------------------------------------
@@ -72,4 +72,3 @@ Dann ist das durch:
 
 erklärte Signaturverfahren EUF-CMA-sicher.
 
-[Yange]:    http://camscofie.github.io  "Yange"

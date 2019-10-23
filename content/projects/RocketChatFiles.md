@@ -1,11 +1,11 @@
 ---
-layout: post
 title: Rocket Chat Files download
-category: gists
 description: python auto download
+date: 2019-06-20T22:41:21+02:00
+tags: ["python"]
 ---
 
-```py
+```python
 
 import json
 import requests
@@ -30,6 +30,7 @@ from pathlib import Path
 │                                              │
 ├──────────────────────────────────────────────┤
 └──────────────────────────────────────────────┘
+
 """
 
 baseUrl = "https://xxxxxxxxxxxxxxx.chat"

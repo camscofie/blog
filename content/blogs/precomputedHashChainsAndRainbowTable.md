@@ -1,8 +1,8 @@
 ---
-layout: post
 title: Precomputed hash chains and Rainbow table
 description: Attack to hash functions
-category: blogs
+date: 2019-07-02T22:41:21+02:00
+tags: ["sicherheit"]
 ---
 
 ## Reversing Cryptographic Hash Functions
@@ -22,6 +22,6 @@ One big problem of precomputed hash chains has two problems:
 1. it's really hard to find a good R, so in reality we end up have a lot of R(*) is out of the defination space from H,
 2. R has hash collision. 
 
-What rainbow table is doing, is that we use number of R (R1...Rk), we do such ![alt text](/resources/postImage/rainbowTable/Rainbow_table1.svg)
+What rainbow table is doing, is that we use number of R (R1...Rk), we do such ![alt text](/postImage/rainbowTable/Rainbow_table1.svg)
 
 the only way to collide two chains is by hitting same value at same iteration. So we solve the second question. 

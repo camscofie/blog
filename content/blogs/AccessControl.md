@@ -1,8 +1,8 @@
 ---
-layout: post
 title: Access Control
 description: Bell-LaPadula-Modell and Chinese-Wall-Modell
-category: blogs
+date: 2019-07-30T22:41:21+02:00
+tags: ["sicherheit"]
 ---
 
 ## Bell LaPadula 
@@ -21,7 +21,7 @@ category: blogs
   * f c : S → L weist jedem Subjekt sein aktuelles Sicherheitslevel zu
   * f o : O → L weist jedem Objekt ein Sicherheitslevel zu
 
-![alter text](/resources/postImage/AccessControl/Xnip2019-07-30_17-20-32.jpg)
+![alter text](/postImage/AccessControl/Xnip2019-07-30_17-20-32.jpg)
 
 ### Discretionary-Security/ds-Eigenschaft
 + user's action is what it has predefined
@@ -68,6 +68,3 @@ a **write Anfrage** to oject o:
 + all the o' the berater has **read** any o', but o' has no conflicts with anything
 
 y(o)=y(o') ∨ x(o')=∅ 
-
-
-[Yange]:    http://camscofie.github.io  "Yange"

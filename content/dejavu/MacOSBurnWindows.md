@@ -1,8 +1,7 @@
 ---
-layout: post
 title: Burn windows USB in MacOS
-category: DV
 description: process record
+date: 2019-07-13T22:41:21+02:00
 ---
 
 

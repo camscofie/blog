@@ -1,8 +1,8 @@
 ---
-layout: post
 title: Turing-Maschinen
+date: 2019-08-11T22:41:21+02:00
 description: Turing-Maschinen und Berechenbarkeit
-category: blogs
+tags: ["TGI"]
 ---
 
 ## Die Registermaschine (RAM)
@@ -11,7 +11,7 @@ Die RAM besteht aus:
 + Ein Programm besteht aus einer Folge von Befehlen.
 + Programmzeilen sind durchnummeriert.
 + Der Befehlszähler b startet bei 1 und enthält jeweils die Nummer des nächsten auszuführenden Befehls.
-![alter text](../../resources/postImage/Turingmachine/Registermaschine.jpg)
+![alter text](/postImage/Turingmachine/Registermaschine.jpg)
 
 + In den ersten Registern steht zu Beginn der Berechnung die Eingabe.
 + In den übrigen Registern steht 0.
@@ -32,7 +32,7 @@ Eine TM besteht aus:
 + beidseitig unendlichen Eingabe- und Rechenband
 + freibeweglichem Lese-/Schreibkopf
 + endlicher Kontrolle
-![alter text](../../resources/postImage/Turingmachine/TM.jpg)
+![alter text](/postImage/Turingmachine/TM.jpg)
 
 Die Kontrolle:
   + ist immer in einem von endlich vielen Zuständen

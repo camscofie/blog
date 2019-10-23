@@ -1,8 +1,7 @@
 ---
-layout: post
 title: Nginx site enable
 description: some dumb thing
-category: DV
+date: 2019-06-30T22:41:21+02:00
 ---
 
 1. go to /etc/nginx/sites-avaliable/

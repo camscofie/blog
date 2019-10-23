@@ -1,8 +1,7 @@
 ---
-layout: post
 title: Github Page layout changes
 description: Record to help change this page framework, for saving time in future
-category: DV
+date: 2019-07-02T22:41:21+02:00
 ---
 
 ## Strucktur of this framework

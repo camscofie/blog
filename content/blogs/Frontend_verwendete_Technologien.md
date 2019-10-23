@@ -1,8 +1,8 @@
 ---
-layout: post
 title: Frontend-verwendete Technologien
 description: PSE Presentation
-category: blogs
+date: 2019-03-24T22:41:21+02:00
+tags: ["frontend"]
 ---
 
 In our frontend developing, we have received very much help from the following three Technologies.

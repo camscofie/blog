@@ -1,8 +1,8 @@
 ---
-layout: post
 title: Komplexitätstheorie
 description: Frage (P vs. NP)
-category: blogs
+date: 2019-08-11T22:41:21+02:00
+tags: ["TGI"]
 ---
 
 

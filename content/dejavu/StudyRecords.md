@@ -1,8 +1,7 @@
 ---
-layout: post
 title: 学习错误集 
 description: 学习记录
-category: DV
+date: 2019-09-12T22:41:21+02:00
 ---
 ## 考试季记录
 

@@ -1,8 +1,8 @@
 ---
-layout: post
 title: Asymmetrische Encryption
 description: RSA, Diffie-Hellman and ElGamal
-category: blogs
+date: 2019-07-16T22:41:21+02:00
+tags: ["sicherheit"]
 ---
 
 ## [RSA Process](https://en.wikipedia.org/wiki/RSA_(cryptosystem))
@@ -76,7 +76,7 @@ m(c) ≡ c^(d) mod N
 
 **now they share the same secret s.**
 
-![alter text](../../resources/postImage/DiffieHellman/800px-Diffie-Hellman_Key_Exchange.svg.png)
+![alter text](/postImage/DiffieHellman/800px-Diffie-Hellman_Key_Exchange.svg.png)
 
 ### Man-in-the-middle-Attack
 + Attack starts at: Alice sends Bob g^a, attacker blocks the g^a and g^b
@@ -108,6 +108,3 @@ m(c) ≡ c^(d) mod N
 ### Decryption
 1. receiver has c
 2. m = c0^(-x) * c1                ## (g^y)^(-x) * (g^x)^y * m
-
-
-[Yange]:    http://camscofie.github.io  "Yange"

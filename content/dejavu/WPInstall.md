@@ -1,8 +1,7 @@
 ---
-layout: post
 title: Wordpress 安装及常见错误
-category: DV
 description: HOW to...
+date: 2019-04-13T22:41:21+02:00
 ---
 
 ## Wordpress 安装

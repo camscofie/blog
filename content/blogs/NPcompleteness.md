@@ -1,8 +1,8 @@
 ---
-layout: post
 title: NP-completeness
 description: Formale Sprachen
-category: blogs
+date: 2019-08-05T22:41:21+02:00
+tags: ["TGI"]
 ---
 
 ### Deﬁnition

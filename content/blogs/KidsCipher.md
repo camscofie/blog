@@ -1,8 +1,8 @@
 ---
-layout: post
 title: Encryption Methods for Kids
 description: Cäser, Vigenère, One-Time-Pad, Stream cipher
-category: blogs
+date: 2019-07-29T22:41:21+02:00
+tags: ["sicherheit"]
 ---
 
 ## Cäser Cipher
@@ -47,8 +47,7 @@ Hacking tips:
 + none
   
 ## Stromchiﬀren mit Pseudozufallszahlen
-![alter text](/resources/postImage/KidsCipher/Xnip2019-07-30_00-30-26.jpg)
+![alter text](/postImage/KidsCipher/Xnip2019-07-30_00-30-26.jpg)
 
 
 
-[Yange]:    http://camscofie.github.io  "Yange"

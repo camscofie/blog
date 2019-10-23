@@ -1,8 +1,8 @@
 ---
-layout: post
 title: 365 Administration in powershell
-category: gists
 description: User account configure
+date: 2019-07-20T22:41:21+02:00
+tags: ["visual basic"]
 ---
 
 ```vb

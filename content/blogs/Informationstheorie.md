@@ -1,8 +1,8 @@
 ---
-layout: post
 title: Informationstheorie
 description: Informationstheorie - Einführung
-category: blogs
+date: 2019-08-06T22:41:21+02:00
+tags: ["TGI"]
 ---
 
 ## Deﬁnition von Information(信息量)
