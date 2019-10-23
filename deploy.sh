@@ -23,3 +23,7 @@ git commit -m "$msg"
 
 # Push source and build repos.
 git push origin master
+
+# Git the blog folder
+cd ..
+sh ./autoGIT.sh
