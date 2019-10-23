@@ -12,7 +12,7 @@ date: 2019-04-13T22:41:21+02:00
 ## 安装wordpress 后需要fpt 连接或安装不成功
 在 wp-config.php 里添加：
 
-```
+```php
 define( 'FS_METHOD', 'direct' );
 
 sudo chown -R www-data:www-data /var/www
@@ -25,7 +25,7 @@ sudo chown -R www-data:www-data /var/www
 + 跟随教程 ["Create a Network"](https://codex.wordpress.org/Create_A_Network)
 + 更改 /etc/apache2/apache.conf 文件里的
 
-```
+```shell
 <Directory /var/www/>
 	Options Indexes FollowSymLinks
 	AllowOverride None
@@ -43,7 +43,7 @@ sudo /etc/init.d/apache2 restart
 ## 无法登入(cookie or potential sessions issue)
 在 wp-config.php 里添加：
 
-```
+```php
 define('ADMIN\_COOKIE\_PATH', '/'); 
 define('COOKIE_DOMAIN', ''); 
 define('COOKIEPATH', ''); 
@@ -57,7 +57,7 @@ $ parent-style = mother theme name
 + 创建 '$parent-style + "-child"' 文件夹
 + 添加文件style.css
 
-```
+```css
 /*
  Theme Name:   Twenty Fifteen Child
  Theme URI:    http://example.com/twenty-fifteen-child/
@@ -76,7 +76,7 @@ $ parent-style = mother theme name
 
 + 添加文件 functions.php
 
-```
+```php
 <?php
 function my\_theme\_enqueue_styles() {
 
