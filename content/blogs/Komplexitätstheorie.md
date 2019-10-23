@@ -31,7 +31,7 @@ Die Klasse P ist die Menge aller Sprachen L (Probleme), für die eine determinis
 
 ## Die Nichtdeterministische Turingmaschine(NTM)
 ------------------
-![alter text](../../resources/postImage/Komplexitätstheorie/NTM.jpg)
+![alter text](/postImage/Komplexitätstheorie/NTM.jpg)
 + werden analog zur DTM durch das Oktupel (Q , Σ, t, Γ, s, δ, q J , q N ) beschrieben.
 + haben zusätzlich zu der endlichen Kontrolle mit dem Lese-/Schreibkopf ein Orakelmodul mit einem eigenen Schreibkopf.
 + NTMs haben genau zwei Endzustände qJ und qN , wobei qJ der akzeptierende Endzustand ist.
