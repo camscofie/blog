@@ -1,8 +1,8 @@
 ---
-title: 365 Administration in powershell
+title: 365 Administration [powershell]
 description: User account configure
 date: 2019-07-20T22:41:21+02:00
-tags: ["visual basic"]
+tags: ["powershell"]
 ---
 
 ```powershell
