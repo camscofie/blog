@@ -30,7 +30,7 @@ Die Klasse P ist die Menge aller Sprachen L (Probleme), für die eine determinis
 
 
 ## Die Nichtdeterministische Turingmaschine(NTM)
-------------------
+
 ![ntm](/postImage/Komplexitätstheorie/NTM.jpg)
 
 + werden analog zur DTM durch das Oktupel (Q , Σ, t, Γ, s, δ, q J , q N ) beschrieben.

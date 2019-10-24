@@ -12,7 +12,7 @@ tags: ["sicherheit"]
 2. A wählt zwei Nachrichten M (1) , M (2) gleicher Länge 
 3. A erhält C∗ := Enc(K, M (b) ) für gleichverteiltes b ∈ {1, 2} 
 4. A gewinnt, wenn er b richtig rät
-![alt text](/postImage/SecurityGames/Screenshot&#32;2019-07-26&#32;at&#32;00.49.53.png)
+![IND-CPA](/postImage/SecurityGames/IND-CPA.png)
 
 ## EUF-CMA (Existential Unforgeability under Chosen Message Attack):
 **言辞**：攻击者有pk 和 Sig(sk,M) Oracle 的权限，攻击者生成伪造的信息和签名；攻击者获胜，如果伪造的签名解锁后等于被伪造的信息。
