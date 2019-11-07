@@ -12,7 +12,6 @@ theme = "hello-friend-ng"
   dateformShort   = "Jan 2"
   dateformNum     = "2006-01-02"
   dateformNumTime = "2006-01-02 15:04 -0700"
-  math = true
 
   # Metadata mostly used in document's head
   description = "Yange's personal website"

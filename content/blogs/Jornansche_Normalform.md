@@ -1,15 +1,66 @@
 ---
-title: "若尔当标准型"
+title: "Jordan Normalform"
 date: 2019-11-03T20:21:59+01:00
 draft: false
+math: true
 tags: ["linear algebra","math"]
 ---
 
 把矩阵转化成对角矩阵非常方便我们进行大次方的矩阵运算，但并非所有的矩阵都能对角化。这里我们把不能对角化的矩阵转化为若尔当标准型。
 
-## 例子
+In order to calculate Matrix with high power, it would be ideal to have them in diagonalization. But matrix, which doesn't have their geometrische Vielfachheit equals to its algebraische Vielfachheit, can be only transfered to Jordan Normalform.
 
-已知矩阵 $B \in \mathbb{C}^6$:
+## Theorie
+
+### Definition
+
++ Für einen Eigenwert $\lambda$ von $\Phi$ und $j\in \Bbb{N}_0$ ist der $j-te$ __Kern__ $K_j(\lambda)$ definiert durch $$K_j(\lambda):= ker((\Phi-\lambda id_V)^j)$$ 
+
++ $v \in V\setminus{0}$ heißt  __Hauptvektor__ (oder __verallgemeinerter Eigenwektor__) von $\Phi$ zum Eigenwert $\lambda$, falls $j \in \Bbb{N}$ existiert mit $(\Phi - \lambda id_V)^j(v)$
+
++ Ist $q \le n$ die kleinste natürliche Zahl mit $K\_q = K\_{q+1}$ heißt $$H_\lambda := K_q = ker((\Phi - \lambda id_V)^q)$$ __Hauptraum__ (oder __verallgemeinerter Eigenraum__) von $\Phi$ zum Eigenwert $\lambda$; $q$ heißt __Index__ von $H_\lambda$.
+
++ Für den Untervektorraum $H_\lambda$ von $V$ ist der EndomorphismusX $$g : H\_\lambda \to H\_\lambda, v \mapsto (f - \lambda id\_V)(v)$$ __nilpotent__, das heißt es gibt $m \in \Bbb{N}$ mit $g^m = 0$.
+
++ Ist $H\_\lambda$ ein Hauptraum von $\Phi$ mit Index $q$, so ist $$B\_\lambda := Bild(\Phi - \lambda id\_V)^q$$ ein $\Phi-invariantes$ Komplement von $H\_\lambda$, das heißt $$V = H\_\lambda \oplus B\_\lambda, \Phi(B\_\lambda) \subset B\_\lambda$$
+  
++ Sind $\lambda\_1,\lambda\_2,\ldots,\lambda\_k$ die verschiedenen Eigenwerte von $\Phi$ und $q\_1,q\_2,\ldots,q\_k$ die Indizes der Haupträumme $H\_{\lambda\_1},H\_{\lambda\_2},\ldots,H\_{\lambda\_k}$ so heißt das Polynom $$m\_\Phi = (X-\lambda\_1)^{q\_1}(X-\lambda\_1)^{q\_2}\ldots(X-\lambda\_1)^{q\_k}$$ __Minimalpolynom__ von $\Phi$.
+
+### Satz (ohne Beweis)
+
+#### Hauptraumzerlegung
+
+Sind $\lambda\_1, \lambda\_2, \ldots,\lambda_k$ die paarweise verschiedenen Eigenwerte von $\Phi$, und ist $p\_\Phi=(-1)^n(X-\lambda\_1)^{r\_1}(X-\lambda\_2)^{r\_2} \ldots (X-\lambda\_k)^{r\_k}$ das charakteristische Polynom von $\Phi$, so gilt $$V = H\_{\lambda\_1} \oplus H\_{\lambda\_2} \oplus \ldots \oplus H\_{\lambda\_k}$$ und $dim H\_{\lambda\_i} = r\_i$ für $i \in \{1,2,\ldots,k\}$.
+
+#### Folgerung
+
+Wählt man entsprechend der Zerlegung $V = H\_{\lambda\_1} \oplus H\_{\lambda\_2} \oplus \ldots \oplus H\_{\lambda\_k}$ eine geordnete Basis $B$ von $V$, so gilt
+
+$$
+D\_{BB}(\Phi) = \begin{pmatrix}
+A\_{\lambda\_1} & & && 0 \newline 
+& A\_{\lambda\_2} &&& \newline   
+&& \ldots && \newline
+&&& \ldots & \newline
+0 &&&& A\_{\lambda\_k}
+\end{pmatrix}, A\_{\lambda\_i} \in \Bbb{C}^{r\_i \times r\_i} 
+$$
+
++ Die Matrix $A\_\lambda$ heißt __Jordanblock__ zum Eigenwert $\lambda$.
++ Die Blockmatrizen innerhalb der Matrix $A\_\lambda$ heißen __Jordankästchen__.
++ Die Abbildungsmatrix von $\Phi$, die man erhält, wenn man in der Blockmatrix für jeden Eigenwert $\lambda\_i$ den entsprechenden Jordanblock $A\_{\lambda\_i}$ einsetzt, heißt __Jordansche Normalform__ von $\Phi$. Die zugehörige Basis von $V$ heißt __Jordanbasis__. 
+
+#### Jordansche Normalform
+
+Ist V ein endlich dimensionaler Vektorraums über $\Bbb{C}$, und $\Phi \in End(V)$, so gibt es eine Basis von V bezuuglich der die darstellende Matrix von $\Phi$ die Jordansche Normalform von $\Phi$ ist. _Die Jordansche Normalform ist bis auf die Reihenfolge der Jordanblöcke eindeutig bestiemmt_.
+
+#### Folgerung
+
+Jede Matrix $A \in \Bbb{C}^{n \times n}$ ist ähnlich zu einer Matrix in Jordanscher Normalform. Die Ähnlichkeitsklasse von $A$ ist durch die Jordansche Normalform von $A$ eindeutig festgelegt.
+
+## Praxis
+
+ein Matrix $B \in \mathbb{C}^6$:
 
 $$
 B= \begin{pmatrix}
@@ -22,18 +73,18 @@ B= \begin{pmatrix}
 \end{pmatrix}
 $$
 
-### 步骤：
+### Steps：
 
 ----------
 
-#### 第一步
+#### 1. Eigenwerte bestimmen
 
-+ 算出 Eigenwerte ， 这里我们用charakteristische Polynom $ p = det(B - X \cdot E)$
++ Eigenwerte bestimmen ， we use charakteristische Polynom $ p = det(B - X \cdot E)$
 
 得到 $ p = (3 - X)^6$ , 所以得到 $\lambda=3$ 是唯一的Eigenwert。根据Satz(17.8 Enrico Leuzinger) 我们只有一个 Hauptraum $H_\lambda$ ，并且只有一个Jordan-Block $A_3$ 出现
 
 
-#### 第二步
+#### 2. bestimmen Index of Hauptraum
 
 + 为了确认$A_3$，先算出 Hauptraum $H_3$ 的 Index $q$
 
@@ -63,7 +114,7 @@ $$(B-3E)^3 = (B-3E)^4 = \ldots = 0$$
 
 所以得出 $H_3$ 的 Index 是 $q=3$
 
-#### 第三步
+#### 3. Untervektorräume $K_k$
 
 + 现在我们计算 Untervektorräume $K_k = Kern(\Phi -3 id)^k, k = 1,2,3$
 
@@ -116,7 +167,7 @@ K_2 = \left[
 $$
 
 $$
-K_2 = \left[
+K_1 = \left[
     \begin{pmatrix}
     0 \newline
     0 \newline
@@ -144,11 +195,11 @@ K_2 = \left[
     \right]
 $$
 
-#### 第四步
+#### 4. Kette verschachtelter Untervektorräume
 
 + 找到各个 $K_k$ 的 Kette verschachtelter Untervektorräume $ K_1 \subset K_2 \subset K_3 = H_3$
 
-##### 第一小步
+##### 4.1
 
 + Hauptraum Zerlegung 
 
@@ -176,7 +227,7 @@ U_2 = \left[
     \right]
 $$
 
-##### 第二小步
+##### 4.2
 
 + 接着在 $K_2$ 下寻找下一个 Zerlegung，因为 $K_2 = U_1 \oplus K_1$
   
@@ -219,7 +270,7 @@ U_1 = \left[
 \right]
 $$
 
-##### 第三小步
+##### 4.3
 
 + 从 $(\Phi-3id)(U_1) \subset K_1$确定 $K_1$ 的Basis
 
@@ -266,9 +317,9 @@ $$
 $$
 \begin{matrix}
    (\Phi-3id)(b_1) = (\Phi-3id)^3(b_2^1) = 0 \qquad \Rightarrow \Phi(b_1) = 3 \cdot b_1 \newline
-   (\Phi-3id)(b_2) = (\Phi-3id)^2(b_2^1) = b_1 \qquad  \Rightarrow \Phi(b_2) =b_1 + 3 \cdot b_1 \newline
-   (\Phi-3id)(b_3) = (\Phi-3id)(b_2^1) = b_2 \qquad \Rightarrow \Phi(b_3) =b_2+ 3 \cdot b_1 \newline
-   (\Phi-3id)(b_4) = (\Phi-3id)^2(b_1^1) = 0 \qquad \Rightarrow \Phi(b_4) = 3 \cdot b_1 \newline
+   (\Phi-3id)(b_2) = (\Phi-3id)^2(b_2^1) = b_1 \qquad  \Rightarrow \Phi(b_2) =b_1 + 3 \cdot b_2 \newline
+   (\Phi-3id)(b_3) = (\Phi-3id)(b_2^1) = b_2 \qquad \Rightarrow \Phi(b_3) =b_2+ 3 \cdot b_3 \newline
+   (\Phi-3id)(b_4) = (\Phi-3id)^2(b_1^1) = 0 \qquad \Rightarrow \Phi(b_4) = 3 \cdot b_4 \newline
    (\Phi-3id)(b_5) = (\Phi-3id)(b_1^1) = b_4 \qquad 
     \Rightarrow \Phi(b_5) =b_4+ 3 \cdot b_5 \newline
    (\Phi-3id)(b_6) = (\Phi-3id)(b_1^1) = 0 \qquad  \Rightarrow \Phi(b_6) = 3 \cdot b_6
@@ -287,3 +338,6 @@ A = \begin{pmatrix}
    &0&&&&3
 \end{pmatrix}
 $$
+
+
+## Inverse Matrix P bestimmen
