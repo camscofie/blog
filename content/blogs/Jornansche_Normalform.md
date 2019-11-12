@@ -32,6 +32,10 @@ In order to calculate Matrix with high power, it would be ideal to have them in 
 
 Sind $\lambda\_1, \lambda\_2, \ldots,\lambda_k$ die paarweise verschiedenen Eigenwerte von $\Phi$, und ist $p\_\Phi=(-1)^n(X-\lambda\_1)^{r\_1}(X-\lambda\_2)^{r\_2} \ldots (X-\lambda\_k)^{r\_k}$ das charakteristische Polynom von $\Phi$, so gilt $$V = H\_{\lambda\_1} \oplus H\_{\lambda\_2} \oplus \ldots \oplus H\_{\lambda\_k}$$ und $dim H\_{\lambda\_i} = r\_i$ für $i \in \{1,2,\ldots,k\}$.
 
+#### Jordanbasis
+
+Bestimme eine passende Basis für jeden Hauptraum $H\_\lambda \subset V$. Sei $q \le r := dimH\_\lambda$ der Index von $H\_\lambda$, $g = \Phi - \lambda id\_V \in End(H\_\lambda)$. Es gilt $$H\_\lambda = U^{(q-1)} \oplus \ldots \oplus U^{(1)} \oplus U^{(0)}$$, wobei $U^{(j-1)}$ jeweils ein Komplement von $K\_{j-1}$ in $K\_j$ bezeichnet und aus Vektoren der Stufe $j$ bezüglich des nilpotenten Endomorphismus $g = \Phi - \lambda id\_V$ von $H\_\lambda$ besteht.
+
 #### Folgerung
 
 Wählt man entsprechend der Zerlegung $V = H\_{\lambda\_1} \oplus H\_{\lambda\_2} \oplus \ldots \oplus H\_{\lambda\_k}$ eine geordnete Basis $B$ von $V$, so gilt
@@ -50,6 +54,11 @@ $$
 + Die Blockmatrizen innerhalb der Matrix $A\_\lambda$ heißen __Jordankästchen__.
 + Die Abbildungsmatrix von $\Phi$, die man erhält, wenn man in der Blockmatrix für jeden Eigenwert $\lambda\_i$ den entsprechenden Jordanblock $A\_{\lambda\_i}$ einsetzt, heißt __Jordansche Normalform__ von $\Phi$. Die zugehörige Basis von $V$ heißt __Jordanbasis__. 
 
+#### Weitere Eigenschaften der Jordanschen Normalform
+
++ Die Anzahl der Kästechen in einem zum Eigenwert $\lambda\_j$ gehörigen Jordanblock ist die Dimension des Eigenraums $K\_1^j = Kern(\Phi-\lambda\_jid\_V)$.
++ Die Anzahl $\sigma\_h^j$ der $(h \times h)$-Kästchen in einem zum Eigenwert $\lambda\_j$ gehörigen Jordan-Block ist gegeben durch $$\sigma\_h^j = \tau^j\_{h-1} - 2\tau^j\_h + \tau^j\_{h+1}$$, wobei $j=1,2,\ldots,k$; $h=1,2,\ldots,q\_j$.
++ 
 #### Jordansche Normalform
 
 Ist V ein endlich dimensionaler Vektorraums über $\Bbb{C}$, und $\Phi \in End(V)$, so gibt es eine Basis von V bezuuglich der die darstellende Matrix von $\Phi$ die Jordansche Normalform von $\Phi$ ist. _Die Jordansche Normalform ist bis auf die Reihenfolge der Jordanblöcke eindeutig bestiemmt_.
@@ -81,12 +90,11 @@ $$
 
 + Eigenwerte bestimmen ， we use charakteristische Polynom $ p = det(B - X \cdot E)$
 
-得到 $ p = (3 - X)^6$ , 所以得到 $\lambda=3$ 是唯一的Eigenwert。根据Satz(17.8 Enrico Leuzinger) 我们只有一个 Hauptraum $H_\lambda$ ，并且只有一个Jordan-Block $A_3$ 出现
-
+得到 $ p = (3 - X)^6$ , 所以得到 $\lambda=3$ 是唯一的Eigenwert。根据Satz(17.8 Enrico Leuzinger) 我们只有一个 Hauptraum $H\_3$。
 
 #### 2. bestimmen Index of Hauptraum
 
-+ 为了确认$A_3$，先算出 Hauptraum $H_3$ 的 Index $q$
++ 先算出 Hauptraum $H_3$ 的 Index $q$
 
 $$
 B -3E = \begin{pmatrix}
@@ -274,7 +282,7 @@ $$
 
 + 从 $(\Phi-3id)(U_1) \subset K_1$确定 $K_1$ 的Basis
 
-因为两个Basis 可以直接从 $(\Phi-3id)^2(b_2^1)$ 和 $(\Phi-3id)(b_1^1)$ 中找到。所以三个维度的 $K_1$ 有一个Basisvector $b_0^1$ 可选：
+因为两个Basis 可以直接从 $(\Phi-3id)^2(b_2^1)$ 和 $(\Phi-3id)(b_1^1)$ 中找到。所以三个维度的 $U_0$ 有一个Basisvector $b_0^1$ 可选：
 
 $$
 (\Phi-3id)^2(b_2^1)=\begin{pmatrix}
@@ -326,7 +334,7 @@ $$
 \end{matrix}
 $$
 
-最后我们按照 Basis $(b_1, \ldots ,b_6 )$ 这样排练，我们就能得到Jordanscher Normalform：
+最后我们按照 Basis $(b_1, \ldots ,b_6 )$ 这样排列，我们就能得到Jordanscher Normalform：
 
 $$
 A = \begin{pmatrix}
@@ -341,3 +349,5 @@ $$
 
 
 ## Inverse Matrix P bestimmen
+
+待补充
