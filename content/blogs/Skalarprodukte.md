@@ -79,6 +79,14 @@ Für ein Skalarprodukte $F$ in einem euklidischen oder unitären Vektorraum $V$ 
 
 ### Unitäre Vektorräume
 
++ Für eine komplexe Zahl $z=x+iy\in \Bbb{C}$ und ihre komplex __Konjugierte__ $\tilde{z}=x-iy$ ist
+$$
+z^2=zz=(x+iy)(x+1y)=(x^2-y^2)+2ixy\in \Bbb{C}\ \ \ \text{hingegen}
+$$
+$$
+z\tilde{z}=(x+iy)(x-iy)=x^2+y^2 \in \Bbb{R}
+$$
+
 + Es sei $V$ ein _komplexer_ Vektorraum. Eine Abbildung $$F: V \times V \to \Bbb{C}\ \ \ \ \ (a,b)\mapsto F(a,b)$$ heißt __Sesquilinearform__ , wenn $\forall x,y,z \in V$ und $\forall \lambda \in \Bbb{C}$ gilt: 
 $$
 \begin{aligned}
