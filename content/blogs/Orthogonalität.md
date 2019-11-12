@@ -30,11 +30,11 @@ gilt; in diesem Fall schreiben wir $x \bot y$.
 
 #### Bemerkung
 
-Jede orthogonale Menge $M \subset V\setminus{\\{0\\}}$ ist linear unabhängig. 
++ Jede orthogonale Menge $M \subset V\setminus{\\{0\\}}$ ist linear unabhängig. 
 
-Für den Nullvektor $0$ von $V$ gilt $0\bot M$;gilt umgekehrt $x\bot V$ für ein $x\in V$, so folgt $x=0$.
++ Für den Nullvektor $0$ von $V$ gilt $0\bot M$;gilt umgekehrt $x\bot V$ für ein $x\in V$, so folgt $x=0$.
 
-$x,y\in V\setminus\\{0\\}:\ \ x\bot y\ \ \ \ \Leftrightarrow\ \ \ \ cos(\omega(x,y))=0\ \ \ \ \Leftrightarrow\ \ \ \ \omega(x,y)=\pi/2$
++ $x,y\in V\setminus\\{0\\}:\ \ x\bot y\ \ \ \ \Leftrightarrow\ \ \ \ cos(\omega(x,y))=0\ \ \ \ \Leftrightarrow\ \ \ \ \omega(x,y)=\pi/2$
 
 
 ### Satz (ohne Beweis)
@@ -85,3 +85,4 @@ Sei $C = \\{c\_1,c\_2,\ldots,c\_k\\}\subset V$ eine linaer unabhängige Menge. B
 3. Für $j=1,\ldots,k$ setze $b\_j=\frac{\tilde{b\_j}}{\parallel \tilde{b\_j}\parallel}$
 
 Dann ist $\tilde{B}= (\tilde{b\_1},\tilde{b\_2},\ldots,\tilde{b\_k})$ eine Orthogonalbasis, und $B=(b\_1,b\_2,\ldots,b\_k)$ eine Orthonormalbasis von $\langle C\rangle$.
+
