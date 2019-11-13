@@ -3,7 +3,7 @@ title: "Normen"
 date: 2019-11-08T23:24:22+01:00
 draft: false
 math: true
-flags: ["linear algebra","math"]
+tags: ["linear algebra","math"]
 ---
 
 在线性空间里表示一个vektor 的范数，长度以及两个vektor 之间的角度。

@@ -3,7 +3,7 @@ title: "Orthogonal Komplemente und Orthogonal-Projektionen"
 date: 2019-11-12T17:42:21+01:00
 draft: false
 math: true
-flags: ["linear algebra","math"]
+tags: ["linear algebra","math"]
 ---
 
 Ist $V$ ein Vektorraum und $U \subset V$ ein Untervektorraum, so hat $U$ im Allgemeinen viele Komplementärräume. Ist hingegen $(V, \langle,\rangle)$ ein euklidischer oder unitärer Vektorraum, so gibt es ein “kanonisches” Komplement.

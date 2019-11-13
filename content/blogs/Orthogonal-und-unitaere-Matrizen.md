@@ -3,7 +3,7 @@ title: "Orthogonal und unitäre Matrizen"
 date: 2019-11-12T22:07:03+01:00
 draft: false
 math: ture
-flags: ["linear algebra","math"]
+tags: ["linear algebra","math"]
 ---
 
 Gegeben sei ein Vektorraum $V$ mit Skalarprodukt, eine Orthonormalbasis $B=\\{e\_1,\ldots,e\_n\\}$ von $V$ und eine Matrix $A=(a\_{ij})\in GL(n,\Bbb{C})$. Wir definieren eine lineare Abbildung $\Phi\_A:V\to V$ durch

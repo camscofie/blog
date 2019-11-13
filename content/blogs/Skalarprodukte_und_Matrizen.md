@@ -3,7 +3,7 @@ title: Skalarprodukte und Matrizen
 date: 2019-11-08T17:27:30+01:00
 draft: false
 math: true
-flags: ["linear algebra","math"]
+tags: ["linear algebra","math"]
 ---
 
 在不同向量空间里的线性映射可以被 Matrix 表示，Skalarprodukte 也可以。

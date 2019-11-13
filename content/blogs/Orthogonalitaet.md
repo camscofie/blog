@@ -3,7 +3,7 @@ title: "Orthogonalität"
 date: 2019-11-10T18:51:29+01:00
 draft: false
 math: true
-flags: ["linear algebra","math"]
+tags: ["linear algebra","math"]
 ---
 
 在线性空间里定义 “正交”
