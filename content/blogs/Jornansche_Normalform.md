@@ -54,11 +54,17 @@ $$
 + Die Blockmatrizen innerhalb der Matrix $A\_\lambda$ heißen __Jordankästchen__.
 + Die Abbildungsmatrix von $\Phi$, die man erhält, wenn man in der Blockmatrix für jeden Eigenwert $\lambda\_i$ den entsprechenden Jordanblock $A\_{\lambda\_i}$ einsetzt, heißt __Jordansche Normalform__ von $\Phi$. Die zugehörige Basis von $V$ heißt __Jordanbasis__. 
 
+**言辞**：包含整组Eigenwert 的一个大方框 叫Jordanblock，Jordanblock 里的每一个小方框叫Jordankästchen。
+
 #### Weitere Eigenschaften der Jordanschen Normalform
 
 + Die Anzahl der Kästechen in einem zum Eigenwert $\lambda\_j$ gehörigen Jordanblock ist die Dimension des Eigenraums $K\_1^j = Kern(\Phi-\lambda\_jid\_V)$.
 + Die Anzahl $\sigma\_h^j$ der $(h \times h)$-Kästchen in einem zum Eigenwert $\lambda\_j$ gehörigen Jordan-Block ist gegeben durch $$\sigma\_h^j = \tau^j\_{h-1} - 2\tau^j\_h + \tau^j\_{h+1}$$, wobei $j=1,2,\ldots,k$; $h=1,2,\ldots,q\_j$.
-+ 
+
+**言辞**：$\sigma\_h^j$ 是指Eigenwert $\lambda\_j$ 的Block 里 $(n\times n)$ 的Kästchen 的数量。而$\tau^j\_h$ 是等于 $Rang(\Phi-\lambda\_jE)^h$。注意 $Rang(\Phi-\lambda\_jE)^0$ 是满Rang。
+  
++ （待确认） Die länge des längstmöglichen Jordankästchens durch das kleinste $k\in \Bbb{N}$ gegeben, sodass $M^k=0$.(from 2010ss Aufgabe 1)
+
 #### Jordansche Normalform
 
 Ist V ein endlich dimensionaler Vektorraums über $\Bbb{C}$, und $\Phi \in End(V)$, so gibt es eine Basis von V bezuuglich der die darstellende Matrix von $\Phi$ die Jordansche Normalform von $\Phi$ ist. _Die Jordansche Normalform ist bis auf die Reihenfolge der Jordanblöcke eindeutig bestiemmt_.

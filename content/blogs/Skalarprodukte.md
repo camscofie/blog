@@ -16,13 +16,11 @@ tags: ["linear algebra","math"]
 
 ### Euklidischer Vektorraum
 
-+ Es sei $V$ ein _reeller_ Vektorraum. Eine __Bilinearform__ auf $V$ ist eine Abbildung $$F:V \times V \to \Bbb{R}\ \ \ \ \ \ (a,b)\mapsto F(a,b)$$ die in jedem Argument linear ist; d.h. $\forall x,y,z \in V \text{ und alle }\lambda\ \in \Bbb{K}$ gilt:
++ Es sei $V$ ein _reeller_ Vektorraum. Eine __Bilinearform__ auf $V$ ist eine Abbildung $$F:V \times V \to \Bbb{R}\ \ \ \ \ \ (a,b)\mapsto F(a,b)$$ die in jedem Argument linear ist; d.h. $\forall a,a\_1,a\_2,b,b\_1,b\_2 \in V \text{ und }\forall\lambda\_1,\lambda\_2,\mu\_1,\mu\_2\in \Bbb{R}$ gilt:
 $$
 \begin{aligned}
-  F(x+y,z)= F(x,z)+F(y,z) \newline
-  F(x,y+z)=F(x,z)+F(y,z) \newline
-  F(\lambda x,y) = \lambda F(x,y) \newline
-  F(x,\lambda y) = \lambda F(x,y)
+  F(\lambda\_1a\_1+\lambda\_2a\_2,b)= \lambda\_1F(a\_1,b)+\lambda\_2F(a\_2,b) \newline
+  F(a,\mu\_1b\_1+\mu\_2b\_2)=\mu\_1F(a,b\_1)+\mu\_2F(a,b\_2) \newline
 \end{aligned}
 $$
 Die Menge aller Bilinearformen auf $V$ bezeichnen wir mit $Bil(V)$.
@@ -133,6 +131,27 @@ $$
 \langle x,y\rangle^2 \le \langle x,x\rangle \cdot\langle y,y\rangle
 $$
 Gleichheit gilt genau dann, wenn $x$ und $y$ linear abhängig sind.
+
+#### Ein Kriterium für “positiv deﬁnit”
+
+Eine reelle, symmetrische Matrix A ist genau dann positiv deﬁnit, wenn alle Eigenwerte von A positiv sind.
+
+#### Jocobi-Hurwitz
+
+Für eine symmetrische Matrix $A=(a\_{ij})\in \Bbb{R}^{n\times n}$ sind folgende Aussagen äquivalent:
+
+1. $A$ ist positiv definit.
+  
+2. Die Determinanten aller __Hauptminoren__ von $A$ sind positiv, d.h. für $k=1,\ldots,n$ gilt:
+$$
+det\begin{pmatrix}
+a\_{11}&\ldots&a\_{1k}\newline
+\ldots&&\ldots \newline
+a\_{k1}&\ldots&a\_{kk}
+\end{pmatrix}\gt 0
+$$
+
+3. Es gibt eine obere Dreiecksmatrix $B\in GL(n,\Bbb{R})$ mit $A=B^\top B$.
 
 ### Bemerkung
 
