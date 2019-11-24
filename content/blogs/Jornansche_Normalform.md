@@ -26,6 +26,28 @@ In order to calculate Matrix with high power, it would be ideal to have them in 
   
 + Sind $\lambda\_1,\lambda\_2,\ldots,\lambda\_k$ die verschiedenen Eigenwerte von $\Phi$ und $q\_1,q\_2,\ldots,q\_k$ die Indizes der Haupträumme $H\_{\lambda\_1},H\_{\lambda\_2},\ldots,H\_{\lambda\_k}$ so heißt das Polynom $$m\_\Phi = (X-\lambda\_1)^{q\_1}(X-\lambda\_1)^{q\_2}\ldots(X-\lambda\_1)^{q\_k}$$ __Minimalpolynom__ von $\Phi$.
 
+---
+
+#### Erinnerung (Ähnlichkeitsinvariante)
+
+Zwei zueinander ähnliche Matrizen $A,B\in K^{n\times n}$ haben:
+
++ die gleichen __Eigenwerte__ (aber nicht notwendigerweise die gleichen Eigenvektoren)
+  
++ die gleiche __Daterminante__
+
++ die gleiche __Spur__
+
+erweitung:
+
++ den gleichen __Rang__
+
++ das gleiche __Minimalpolynom__
+
++ die gleiche __jordansche Normalform__
+
+---
+
 ### Satz (ohne Beweis)
 
 #### Hauptraumzerlegung
@@ -64,6 +86,8 @@ $$
 **言辞**：$\sigma\_h^j$ 是指Eigenwert $\lambda\_j$ 的Block 里 $(n\times n)$ 的Kästchen 的数量。而$\tau^j\_h$ 是等于 $Rang(\Phi-\lambda\_jE)^h$。注意 $Rang(\Phi-\lambda\_jE)^0$ 是满Rang。
   
 + （待确认） Die länge des längstmöglichen Jordankästchens durch das kleinste $k\in \Bbb{N}$ gegeben, sodass $M^k=0$.(from 2010ss Aufgabe 1)
+
++ （待证明）Die Dimension des Hauptraums zu $\lambda\_n$ ist gleich der algebraischen Vielfachheit des Eigenwertes.
 
 #### Jordansche Normalform
 
