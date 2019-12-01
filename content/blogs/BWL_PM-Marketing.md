@@ -1,5 +1,5 @@
 ---
-title: "BWL_PM Marketing"
+title: "Betriebswirtschaftslehre - Marketing"
 date: 2019-11-24T23:36:07+01:00
 tags: ["BWL"]
 math: true
@@ -150,21 +150,23 @@ Smith(1956): "Market segmentation involves viewing a heterogeneous market as a n
 
 消费者行为：所有的个人交易和消费行为。
 
-### Kundenbedürfnisse:
+### Zentrale Phänomene
+
+#### Kundenbedürfnisse:
 
 <img src="/postImage/BWL_PM-Marketing/Kundenbeduerfnisse.png" alt="Kundenbeduerfnisse.png" width="800" class="center" />
 
-### Einstellungen
+#### Einstellungen
 
 Einstellung: "Innere Denkhaltung des Konsumenten gegenüber einer Person, Verhaltensweise, Idee oder Sache, verbunden mit einer Wertung"
 
 消费观点：每个人，消费习惯，方法或者某个东西对每个消费者都与一个价值相挂钩。
 
-#### Einstellungen und Verhalten
+##### Einstellungen und Verhalten
 
 + Einstellungen $\nRightarrow$ Verhalten
 
-##### Theory of Reasoned Action
+###### Theory of Reasoned Action
 
 + Behavior $=B\approx BI=w\_1\cdot A\_{act}+w\_2\cdot SN$
   + Behavioral Intention $=BI$
@@ -175,6 +177,38 @@ Einstellung: "Innere Denkhaltung des Konsumenten gegenüber einer Person, Verhal
       + Subjective norms $=SN=\sum^m\_{j=1}NB\_j\cdot MC\_j$
           + Normative belief (what does a significant person in the consumer's life think about the act?) $=NB\_j$
           + Motivation to comply with (or please) this significant person $=MC\_j$
+
+### Erhebung von Daten
+
+#### Verfahren der Datenerhebung
+
+<img src="/postImage/BWL_PM-Marketing/Datenerhebungsverfahren.png" alt="Datenerhebungsverfahren.png" width="800" class="center" />
+
+### Analyse von Daten
+
+#### Exploratorische Faktorenanalyse
+
++ Problemstellung:
+  + Große Anzahl von Variablen in Untersuchungen
+  + Interpretation schwierig (Komplexität)
+  + Interdependenzen zwischen Variablen
+
++ Ziel:
+  + Aufdeckung von Zusammenhängen zwischen Variablen
+  + Reduktion auf wenige übergeordnete Faktoren (Komplexitätsreduktion)
+
++ Charakterisierung des Verfahrens:
+  + Deskriptiv (描绘的)
+  + Multivariat
+  + Verfahren der Interdependenzanalyse
+
++ Ablauf in fünf Schritten:
+  1. Aufstellen einer Korrelationsmatrix
+  2. Faktorextraktion
+  3. Bestimmung der Faktorzahl
+  4. Faktorrotation
+  5. Interpretation der Ergebnisse
+
 
 ---
 
