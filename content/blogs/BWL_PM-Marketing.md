@@ -289,7 +289,7 @@ $$
   
 $$
 \begin{aligned}
-\text{Korrelationskoeffizient}&\ \ r=\frac{\sum^n\_{i=1}(x\_i-\overline{x})\cdot(y\_i-\overline{y})}{\sqrt{(\sum^n\_{i=1}(x\_i-\overline{x})^2)(\sum^2\_{i=1}(y\_i-\overline{y})^2)}} 
+\text{Korrelationskoeffizient}&\ \ r=\frac{\sum^n\_{i=1}(x\_i-\overline{x})\cdot(y\_i-\overline{y})}{\sqrt{(\sum^n\_{i=1}(x\_i-\overline{x})^2)(\sum^n\_{i=1}(y\_i-\overline{y})^2)}} 
 \end{aligned}
 $$
 
@@ -449,12 +449,12 @@ Probabilistisches Modell:
 
 Formal:
 $$
-\Bbb{P}\_{ik}=\frac{U^\beta\_{ik}}{\sum^J\_{j=1}U^\beta\_{jk}}
+\Bbb{P}\_{ik}=\frac{W^\beta\_{ik}}{\sum^n\_{j=1}W^\beta\_{jk}}
 $$
 $$
 \begin{aligned}
     \Bbb{P}\_{ik}\ \ &\text{= Wahrscheinlichkeit, mit der sich PErson $k$ für Objekt $i$ entscheidet} \newline
-    U\_{jk}\ \ &\text{= Nutzen des Objektes $j$ für Person $k$}\newline
+    W\_{jk}\ \ &\text{= Nutzen des Objektes $j$ für Person $k$}\newline
     \beta\ \ &\text{= Konstante}
 \end{aligned}
 $$
@@ -585,11 +585,35 @@ $$
 p^\ast=(\frac{b}{b-1}\cdot k)\ \ \ \text{mit: $k$ = variable Stückkosten, $b\gt 0$}
 $$
 
+#### Preischwellen
+
+Reale Preis-Absatz-Funktion bei Chiffon Margarine
+
+<img src="/postImage/BWL_PM-Marketing/Preisschwellen.png" alt="Marktsegmentierungsdilemma" width="400" class="center" />
+
++ Überproportional starker Rückgang der Absatzmenge bei Preiserhöhungen von 49Ct auf 51Ct, und 53Ct.
++ Anstieg der Absatzmenge im Preisbereich 53-59Ct, trotz Preissteigerung
++ Flacher Nachfrageverlauf im Preisbereich 64-69Ct.
+
+#### Preise als Qualitätsindikator
+
+<img src="/postImage/BWL_PM-Marketing/Qualitaetsindikator2.png" alt="Marktsegmentierungsdilemma" width="600" class="center" />
+
+<img src="/postImage/BWL_PM-Marketing/Qualitaetsindikator.png" alt="Marktsegmentierungsdilemma" width="600" class="center" />
+
+#### Preise als Qualitätsindikator
+
 #### Preise als Prestigequelle
 
 __Veblen-Effekte (Status Effekte)__
 
 _"Ein höherer Preis (Indikator für Prestige) führt bei bestimmten Gütern(Luxusgütern) bei funktionaler Gleichheit zu einer erhöhten Nachfrage."_
+
++ Veblen sieht positive Korrelation zwischen Vermögen und Prestigekonsum
++ Unterteilung des Preises
+  + Realer Wert
+  + Von Außenstehenden geschätzter Wert
++ Konsum kann in Folge einer Preiserhöhung steigen
 
 ---
 
@@ -625,10 +649,20 @@ on hold
 
 ### Kundenzufriedenheit
 
-#### Confirmation/Disconfirmation
+#### Confirmation/Disconfirmation - Paradigma
 
 + Kundenzufriedenheit  entsteht aufgrund eines psychologischen Prozesses
 + Vergleich zwischen tatsächlicher und erwarteter Leistung
+
+<img src="/postImage/BWL_PM-Marketing/Confirmation.png" alt="Marktsegmentierungsdilemma" width="600" class="center" />
+
+#### Interpretation der Kundenzufriedenheitswerte
+
++ Kundenzufriedenheit wird oft mit Hilfe einer Skala von 0 bis 100 interpretiert
++ Ampel Darstellung kennzeichnet beunruhigende Zufriedenheitswerte
+
+<img src="/postImage/BWL_PM-Marketing/Kundenzufriedenheitswerte.png" alt="Marktsegmentierungsdilemma" width="600" class="center" />
+
 
 #### Drei Techniken des Erwartungsmanagements
 

@@ -6,7 +6,7 @@ math: true
 tags: ["BWL"]
 ---
 
-## Industrielle Produktion - Motivation
+## I. Industrielle Produktion - Motivation
 
 _"Unter Produktion sei die Kombination von Gütern (Input, Produktionsfaktoren) zur Erstellung anderer Güter (Output, betriebliche Leistungen) verstanden."_
 
@@ -20,7 +20,7 @@ __Entscheidungsprobleme in der Produktion__
 
 ---
 
-## Grundbegriffe und Grundzusammenhänge
+## II. Grundbegriffe und Grundzusammenhänge
 
 __Funktionale BWL__:
 
@@ -58,7 +58,7 @@ Wichtige Teilgebiete:
 
 ---
 
-## Klassifikation industrieller Produktionssysteme
+## III. Klassifikation industrieller Produktionssysteme
 
 ### Produktionstypen
 
@@ -112,13 +112,17 @@ Eingesetzte Technologie:
   + Kalorische Produktionstechnologien (thermische Verfahrenstechnik)
   + Elektrotechnische Produktionstechnologien (Elektroabscheier)
  
-#### Transformationsbezogene Produktionstypen 
-
 <img src="/postImage/BWL_PM-Produktionswirtschaft/Transformationsbezogene.png" alt="Marktsegmentierungsdilemma" width="500" class="center" />
+
+Bezeichnet organisatorische Gestatlung des Fertigungsablaufs durch räumliche Zusammenfassung und Verteilung von Betreibsmitteln und Arbeitsplätzen zu fertigungstechnischen Einheiten
+
++ Die zwei möglichen Extremfälle sind die __Fießfertigung__ und die __Werkstattfertigung__.
+
+<img src="/postImage/BWL_PM-Produktionswirtschaft/Vergleich_Fertigung.png" alt="Marktsegmentierungsdilemma" width="600" class="center" />
 
 ---
 
-## Aufgaben und Ziele des Produktionsmanagements
+## IV. Aufgaben und Ziele des Produktionsmanagements
 
 ### Definitionen
 
@@ -201,7 +205,7 @@ Produktivität ist die generelle Zielgröße des operativen Produktionsmanagemen
 
 ---
 
-## Produktionsplannung
+## V. Produktionsplannung
 
 ### Operative Produktionsplanung
 
@@ -219,7 +223,7 @@ Produktivität ist die generelle Zielgröße des operativen Produktionsmanagemen
 
 ---
 
-## Spezielle Prduktionssysteme - Maschinenbau
+## VI. Spezielle Prduktionssysteme - Maschinenbau
 
 ### Charakteristikum: Lagerhaltung
 
@@ -623,13 +627,13 @@ __Erstellung eines Terminplanes__
 
 ## Spezielle Prduktionssysteme - Energiewirtschaft
 
-<img src="/postImage/BWL_PM-Produktionswirtschaft/Energiedienstleistung.png" alt="Marktsegmentierungsdilemma" width="800" class="center" />
-
 Jede energetische Umwandlung ist mit Verlusten verbunden. Die "Güte" von Umwandlungsprozessen lässt sich mit dem energetischen Wirkungsgrad darstellen.
 
 <img src="/postImage/BWL_PM-Produktionswirtschaft/Umrechnung.png" alt="Marktsegmentierungsdilemma" width="800" class="center" />
 
 ### Primärenergie und Sekundärenergie
+
+<img src="/postImage/BWL_PM-Produktionswirtschaft/Energiedienstleistung.png" alt="Marktsegmentierungsdilemma" width="800" class="center" />
 
 + __Primärenergie__ ist der rechnerisch nutzbare Energiegehalt all jener Energieträger, die in der Natur vorkommen und noch keiner Umwandlung unterworfen sind.
 
