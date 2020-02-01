@@ -74,3 +74,18 @@ Third pass needs very much attention to the details, you need to identify and ch
 
 ## Doing a Literature Survey
 
+Literature survey means you need to read a lot of papers, possibly unfamiliar field.
+
+__Central Questions__: What papers should you read?
+
+__Fisrt__: use academic search engine such as Google Scholar or CiteSeer with some well-chosen keywords to find around __3-5 recent highly-cited__ papers in that area. Do First Round on them, and see the section "Related Work". You can find a thumbnail summary of the recent work. (Sometimes the Related Work points to a Survey paper, if you found that, you're done)
+
+__Second__: find shared citations and repeated author names in the bibliography. There are the key papers and researchers in that area. Download the key papers and set them aside. Then go to the websites of the key researchers and see where they've published recently. (That will help you identify the top conferences in that field)
+
+__Third__: go to the webiste for these top conferences and look through their recent proceedings. A quick scan will usually identify recent high-quality related work. These papers, along with the ones you set aside earlier, consitute the first version of your survey. Make "two Round" on them, if they cite a key paper which you haven't found, add it and read it.
+
+## Related Work
+
+If you are readin a paper to do a review, you should also read Timothy Roscoe' paper on "Writing reviews for syste,s conferences". If you're planning to write a technical paper, you should refer both to Henning Schulzrinne's comprehensive web site and George Whitesides's excellent overview of the process. Finally, Simon Peyton Jones has a website that covers the enetire spectrum of research skills.
+
+Iain H.McLean of Psychology, Inc. has put together a downloadable 'review matrix' that simplifies paper reviewing using the "Three-Round" approach for papers in experimental psychology, which can probably be used, with minor  modifications, for papers in other areas. 
