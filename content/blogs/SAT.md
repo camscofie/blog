@@ -30,4 +30,9 @@ $$
 
 1. SAT $\in \mathcal{NP}$ ist offensichtlich erfüllt, denn für ein Beispiel $I$ von SAT (mit $n$ Klauseln und $m$ Variablen) und einer Wahrheitsbelegung $t$ kann in $O(m\cdot n)$ überprüft werden, ob $t$ alle Klauseln erfüllt, d.h. ob $I$ ein Ja-Beispiel ist.
 
-2. Wir müssen zeigen, dass für jede Sprache $L\in\mathcal{NP}$
+2. Wir müssen zeigen, dass für jede Sprache $L\in\mathcal{NP}$ gilt: $L\propto L\_{\text{SAT}}$, wobei $L\_{SAT} = L\[SAT,s\]$ für ein geeignetes Kodierungsschema $s$ ist. Dazu muss für alle Sprachen $S \in \mathcal{NP}$ eine polynomiale Transformation $f\_{L}$ angegeben werden, für die gilt, dass für alle $x\in \sum^*$ gilt
+$$
+x\in \Leftrightarrow f\_{L}(x)\in L\_{SAT}
+$$
+
+Wir beötigen eine Konstruktion von $f\_{L}$, die zeigt, wie man die Überprüfung, ob eine nichtdeterministische Turing-Maschine $M$ zu $L$ ein Wort $x\in \sum^*$ akzeptiert, durch die Angabe von Klauseln simulieren kann. 
