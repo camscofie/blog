@@ -2,6 +2,7 @@
 title: "Pseudopolynomiale Algorithmen"
 date: 2020-05-25T15:59:05+02:00
 math: true
+tags: ["TGI"]
 ---
 
 ## Definiton
