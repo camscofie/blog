@@ -128,29 +128,39 @@ __Luquidity Ratio__ = (long-term Financing - langfristige Vermögenswerte)/WCR =
 
 #### Effizienz
 
-__WCR-to-Sales Ratio__ = WCR/Umsatz
+__WCR-to-Sales Ratio__ = $\frac{WCR}{Umsatz}$
 
-__Umschlagshäufigkeit des Vorrats "Fertige Erzeugnisse und Waren(FE)"（库存周转率）__ = Abgang in der Periode/Bestand des Vorrats FE am Ende der Jahrespeiode
+__Umschlagshäufigkeit des Vorrats "Fertige Erzeugnisse und Waren(FE)"（库存周转率）__ $= \frac{Abgang.in.der.Periode}{Bestand.des.Vorrats.FE.am.Ende.der.Jahrespeiode}$
 
 * Abgang in der Periode 以Umsatzkosten 来算
 
-Umschlagsdauer des Vorrats FE = 365Tage/Umschlagshäufigkeit des Vorrats FE
+__Umschlagsdauer des Vorrats FE__ $= \frac{365Tage}{Umschlagshäufigkeit.des.Vorrats.FE}$
 
 库存周转率越高，那么给vorrats 和WCR 的投入就越低，那么Operative Effizienz 就高。
 
-__Lieferantenziel__ = (Verbindlichkeiten aus Lieferung und Leistungen am Ende der Jahresperiode x 365Tage)/Wareeingang
+__Lieferantenziel__ $= \frac{Verbindlichkeiten.aus.Lieferung.und.Leistungen.am.Ende.der.Jahresperiode * 365Tage}{Wareeingang}$
 
-__Wareneingang__ = Endbestand an Vorräten -  Anfangsbestand an Vorräten + Umsatzkosten - Fertigungskosten
+__Wareneingang__ $= Endbestand.an.Vorräten -  Anfangsbestand.an.Vorräten + Umsatzkosten - Fertigungskosten$
 
 <img src="/postImage/Rechnungswesen/cash-to-cash.png" alt="cash-to-cash" width="500" class="center" />
 
 #### Traditionelle Liquiditätsmaße
 
-* __Net Working Capital__ = Umlaufvermögen - kurzfristige Schulden
-* __Liquidität 1. Grades (Barliquidität)__ = ZM/kurzfristige Schulden
-* __Liquidität 2. Grades (Liquidität auf kurze Sicht)__ = monetäres Umlaufvermögen/kurzfristige Schulden
-* __Liquidität 3. Grades (Liquidität auf mittlere Sicht)__ =(monetäres Umlauf vermögen + Vorräte)/kurzfristige Schulden
+* __Net.Working.Capital__ $= Umlaufvermögen - kurzfristige.Schulden$
+* __Liquidität 1. Grades__ (Barliquidität) $= \frac{ZM}{kurzfristige.Schulden}$
+* __Liquidität 2. Grades__ (Liquidität auf kurze Sicht) $= \frac{monetäres.Umlaufvermögen}{kurzfristige.Schulden}$
+* __Liquidität 3. Grades__ (Liquidität auf mittlere Sicht) $=\frac{monetäres.Umlaufvermögen + Vorräte}{kurzfristige.Schulden}$
 
 ---
 
 ## 5. Jahresabschlussanalyse: Rentabilität （盈利能力）
+
+#### ROI Kennzahlensystem
+
+##### Relative Kennzahlen
+
+__ROS__ (Return on Sales, Umsatzrentabilität) = $\frac{Jahresüberschuss + Zinsaufwand + Steuern}{Umsatz} = \frac{EBITT}{Umsatz}$
+
+__ROE__ (Return on Equity, Eigenkapitalrentabilität) = Jahresüberschuss/EK
+
+__$ROIC\_{BT}$__ $= \frac{EBIT}{Investiertes Kapital} = \frac{EBIT}{Capital Employed}$
