@@ -88,15 +88,17 @@ Komponenten des Eigenkapitals:
 
 #### Working Capital Requirement 运营资本需求
 
-__WCR__ $=$ __Oprative Vermögenswerte__ $-$ __Operative Verbindlichkeiten__
+__WCR__ $= Oprative.Vermögenswerte - Operative.Verbindlichkeiten$
 
-__Operative Vermögenswerte__ 运营资本 = Forderungen aus Lieferungen und Leistungen + Vorräte + gezahlte Anzahlung + Aktive Rechnungsabgrenzungsposten
+__Operative Vermögenswerte__ 运营资本 $= Forderungen.aus.Lieferungen.und.Leistungen + Vorräte + gezahlte. Anzahlung + Aktive.Rechnungsabgrenzungsposten$
 
-__Operative Verbindlichkeiten__ 运营债务 = Verbindlichkeiten aus Lieferungen und Leistungen + Sonstige Verbindlichkeiten für das operative Geschäft + erhaltene Anzahlung + Passive Rechnungsabgrenzungsposten
+__Operative Verbindlichkeiten__ 运营债务 $= Verbindlichkeiten.aus.Lieferungen.und.Leistungen + Sonstige.Verbindlichkeiten.für.das.operative.Geschäft + erhaltene.Anzahlung + Passive.Rechnungsabgrenzungsposten$
 
-__Investiertes Kapital__ （投入资本）(Aktiva) = Zahlungsmittel + WCR + langfristige Vermögensgegenstände (+ ggf. nicht operative kurzfristige Vermögensgegenstände)
+__Investiertes Kapital__ （投入资本）(Aktiva) $= Zahlungsmittel + WCR + langfristige.Vermögensgegenstände (+ ggf. nicht.operative.kurzfristige.Vermögensgegenstände)$
 
-__Capital Employed(eingesetztes Kapital)__ （运用资本） (Passiva) = kurzfristige nicht operative Schulden + langfristige Schulden + Eigenkapital
+__Capital Employed__(eingesetztes Kapital) （运用资本） (Passiva) $= kurzfristige.nicht.operative.Schulden + langfristige.Schulden + Eigenkapital$
+
+__Finanzschulden__ = IK - EK
 
 #### Mathcing Stragie für das WCR
 
@@ -104,11 +106,11 @@ __Capital Employed(eingesetztes Kapital)__ （运用资本） (Passiva) = kurzfr
 
 <img src="/postImage/Rechnungswesen/WCR.png" alt="WCR" width="500" class="center" />
 
-__Net long-term Financing(NLF)__ = long-term Financing - langfristige Vermögenswerte = langfristige Schulden + EK - langfristige Vermögenswerte
+__Net long-term Financing(NLF)__ $= long.term.Financing - langfristige.Vermögenswerte = langfristige.Schulden + EK - langfristige.Vermögenswerte$
 
-__Net short-term Financing(NSF)__ = kurzfristige nicht operative Shulden - ZM
+__Net short-term Financing(NSF)__ $= kurzfristige.nicht.operative.Shulden - ZM$
 
-__Luquidity Ratio__ = (long-term Financing - langfristige Vermögenswerte)/WCR = NLF/WCR
+__Luquidity Ratio__ $= \frac{long.term.Financing - langfristige.Vermögenswerte}{WCR} = \frac{NLF}{WCR}$
 
 总结： WCR - NLF = NSF
 
@@ -138,7 +140,7 @@ __Umschlagsdauer des Vorrats FE__ $= \frac{365Tage}{Umschlagshäufigkeit.des.Vor
 
 库存周转率越高，那么给vorrats 和WCR 的投入就越低，那么Operative Effizienz 就高。
 
-__Lieferantenziel__ $= \frac{Verbindlichkeiten.aus.Lieferung.und.Leistungen.am.Ende.der.Jahresperiode * 365Tage}{Wareeingang}$
+__Lieferantenziel__ $= \frac{Verbindlichkeiten.aus.Lieferung.und.Leistungen.am.Ende.der.Jahresperiode \times 365Tage}{Wareeingang}$
 
 __Wareneingang__ $= Endbestand.an.Vorräten -  Anfangsbestand.an.Vorräten + Umsatzkosten - Fertigungskosten$
 
@@ -155,12 +157,144 @@ __Wareneingang__ $= Endbestand.an.Vorräten -  Anfangsbestand.an.Vorräten + Ums
 
 ## 5. Jahresabschlussanalyse: Rentabilität （盈利能力）
 
-#### ROI Kennzahlensystem
+### ROI Kennzahlensystem
 
-##### Relative Kennzahlen
+#### Absolute Kennzahlen
+
+__EAT__ (Earnings After Tax) := Jahresüberschuss
+
+__EBT__ (Earnings Before Tax) := EAT + Steuern
+
+__EBIT__ (Earnings Before Interest and Tax) := EBT + Finanzergebnis (Finanzergebnis = Zinsaufwand - Zinsertrag)
+
+__EBITA__ (Earnings Before Interest, Tax and Mortization) := EBIT + Abschreibungen auf immaterielle Vermögenswerte und Impairment Loss
+
+__EBITDA__ (Earnings Before Interest, Tax, Amortization and Depreciation) := EBITA + Abschreibungen auf Sachanlagen
+
+#### Relative Kennzahlen
 
 __ROS__ (Return on Sales, Umsatzrentabilität) = $\frac{Jahresüberschuss + Zinsaufwand + Steuern}{Umsatz} = \frac{EBITT}{Umsatz}$
 
 __ROE__ (Return on Equity, Eigenkapitalrentabilität) = Jahresüberschuss/EK
 
+__ROBA__ (Return on bussiness assets)$=\frac{EBIT}{WCR + langfristige.Vermögenswerte}$
+
+__ROTA__ (Return on total assets) $= \frac{EBIT}{Alle.Vermögenswerte}$
+
 __$ROIC\_{BT}$__ $= \frac{EBIT}{Investiertes Kapital} = \frac{EBIT}{Capital Employed}$
+
+
+<img src="/postImage/Rechnungswesen/ROI.png" alt="cash-to-cash" width="700" class="center" />
+
+#### ROE Kennzahlensystem
+
+__Financial Cost Ratio__ $=\frac{EBT}{EBIT}$
+
+__Financial Structure Ratio__ $=\frac{Investiertes.Kapital}{EK}$
+
+__Financial Leverage Multiplier__ $Financial.Cost.Ratio * Financial Structure Ratio$
+
+__Tax-Effect Ratio__ $=\frac{Jahresüberschuss}{EBT} = 1-effektiver.Steuersatz$ 
+
+$$ROE = \frac{Jahresüberschuss}{EK}
+$$
+$$=\frac{EBIT}{Umsatz} \times\frac{Umsatz}{Investiertes Kapital}\times\frac{EBT}{EBIT} \times\frac{IK}{EK}\times \frac{Jahreüberschuss}{EBT}$$
+$$=ROIC\_{BT}\times Financial.Cost.Ratio\times FinancialStructure.Ratio \times Tax.Effect.Ratio 
+$$
+$$=ROIC\_{BT}\times Financial.Leverage.Multiplier\times(1-effektiver.Steuersatz)
+$$
+
+<img src="/postImage/Rechnungswesen/ROE.png" alt="ROE" width="700" class="center" />
+
+
+## 6.Steuern im externen Rechnungswesen
+
+__Umsatzsteuer__ 周转税：周转税是按商品生产或销售量的流转额征收的一种税。周转税的征税对象是生产、销售或采购商品的流转额。周转税的纳税人是从事生产和销售商品的销售组织。
+
+__Mehrwertsteuer__ 增值税： 增值税是对生产经营活动的增值额征收的一种间接税或是以商品在流转过程中产生的增值额作为计税依据而征收的一种流转税。
+
+__Latente Steuern__ 递延所得税: 自己的帐和工商局做的帐，对如Abschreibung 类的算法时间上的延误，而列出的“提前税”。
+
+
+<img src="/postImage/Rechnungswesen/latente.png" alt="latente" width="700" class="center" />
+
+
+## 7.Bilanzpolitik und Compliance (收支平衡的政策和合规)
+
+## 8.Geshäftsbericht und Investor Relations
+
+## 9. Unternehmensbewertung
+
+#### CAPM (Capital Asset Pricing Models)
+
+$$
+k\_e = r+(\mu\_M -r)\times \beta
+$$
+
+wobei:
+
+$r$ =: Rendite der sicheren Anlage
+
+$\mu\_M$ =: die erwartete Rendite des Marktporfolies
+
+$\beta$ das Beta der Aktie
+
+__WACC__ (Weighted Average Cost of Capital, Gesamtkapitalkostensatz) $=\frac{EK}{EK+FS}\times k\_e + \frac{FS}{EK+FS}\times k\_f \times (1-s)$
+
+wobei:
+
+$FS$ =: Finanzschulden
+
+$k\_f$ =: Fremdkapitalkostensatz
+
+$k\_e$ =: Eigenkapitalkostensatz
+
+$s$ =: Marginaler Steuersatz
+
+#### Economic Value Added
+
+__NOPAT__ (Net Operating Profit After Tax) = Jahresüberschuss + Zinsaufwand x (1-s)
+
+__EVA__ (Economic Value Added) = NOPAT - WACC x Capital Employed 
+
+<img src="/postImage/Rechnungswesen/eva.png" alt="eva" width="700" class="center" />
+
+#### Marktwertbasierte Kennzahlen
+
+__EPS__(Earnings per share, Gewinn je Aktie) $=\frac{Jahresüberschuss}{Durchschnittliche Anzhal der Aktien} = \frac{Jahresüberschuss}{\frac{Durchschnittlisches gezeichnetes Kapital}{Nennwert je Aktie}}$
+
+__KGV__ (Kurs-Gewinn-Verhältnis, price-to-earnings ratio) $= \frac{Preis.je.Aktie}{EPS}$
+
+__Dividendenrendite__ $= \frac{Devidende.je.Aktie}{Preis.vor.Dividendenzahlung.je.Aktie}$
+
+__Market-to-Book Ratio__ $=\frac{Preis.je.Aktie}{Buchwert.des.Eigenkapial.je.Aktie}=\frac{Preis.je.Aktie}{\frac{Buchwert.des.Eigenkapitals}{Anzahl.der.Aktien}}$
+
+#### EBIT-Multiple
+
+__EBIT-Multiple__ $=\frac{Enterprise.Value}{EBIT} =\frac{Marktwert.des.EK + Netto - FS}{EBIT} = \frac{Martwert.des.EK + FS - ZM}{EBIT} = \frac{1}{i-g}$
+
+__g__ (Geometrisch-durchschnittliche Wachstumsrate) $=\sqrt[n]{\frac{EBIT\_n}{EBIT\_0}} -1 = i-\frac{EBIT}{Enterprise.Value}$
+
+__Enterprise.Value__ $=\frac{EBIT}{i-g}$
+
+
+wobei:
+
+i := risikoadäquate Kapitalkostensatz
+
+#### Aktienbewertung
+
+Aktienrendite $=\frac{Div\_1}{P\_0}+\frac{P\_1 - P\_0}{P\_0}= \frac{Div\_1 + P\_1}{P\_0} - 1$ = Dividendenrendite + Rendite aus Kursveränderung
+
+##### DDM (Dividend Discount Model)
+
+$P\_0 = \frac{Div\_1+P\_1}{1+r\_E}$ ,wobei $r\_E$ ist Diskontierungssatz
+
+$P\_1 = \frac{Div\_2+P\_2}{1 + r\_E}$
+
+damit haben wir
+
+$P\_0=\frac{Div\_1}{1+r\_E}+\frac{1}{1+r\_E}(\frac{Div\_2+P\_2}{1+r\_E})=\frac{Div\_1}{1+r\_E}+\frac{Div\_2+P\_2}{(1+r\_E)^2}$
+
+
+$P\_0 = \frac{Div\_1}{1+r\_E}+\frac{Div\_2}{(1+r\_E)^2}+\frac{Div\_3}{(1+r\_E)^3}+\dots =\sum^\infty\_{t=1}\frac{Div\_t}{(1+r\_E)^t}$
